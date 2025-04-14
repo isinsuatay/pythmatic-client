@@ -1,0 +1,57 @@
+{
+  "name": "pythmatic-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@monaco-editor/loader": "^1.4.0",
+    "@monaco-editor/react": "^4.6.0",
+    "axios": "^1.5.0",
+    "core-js": "^3.8.3",
+    "gsap": "^3.12.5",
+    "mathjs": "^13.2.0",
+    "monaco-editor": "^0.52.0",
+    "pinia": "^3.0.2",
+    "prism-themes": "^1.9.0",
+    "prismjs": "^1.29.0",
+    "vue": "^3.2.13",
+    "vue-class-component": "^8.0.0-0",
+    "vue-copy-to-clipboard": "^1.0.3",
+    "vue-monaco-editor": "^0.0.19",
+    "vue-router": "^4.5.0",
+    "vue-styled-components": "^1.0.4",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.64",
+    "@types/vue-router": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "sass": "^1.86.3",
+    "sass-loader": "^16.0.5",
+    "typescript": "~4.5.5"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  }
+}

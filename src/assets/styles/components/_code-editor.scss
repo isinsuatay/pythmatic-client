@@ -1,0 +1,100 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+.code-editor {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+.font-controls {
+  margin-bottom: 10px;
+}
+
+.font-controls label {
+  margin-right: 10px;
+}
+
+.font-controls input[type="range"] {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  border-color: #4caf50;
+}
+
+.button-group {
+  display: flex;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.code-editor .button-group button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.code-editor .button-group button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.code-editor .button-group button:nth-child(2),
+.code-editor .button-group button:nth-child(3) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.code-editor .button-group button:nth-child(2):hover,
+.code-editor .button-group button:nth-child(3):hover {
+  background-color: transparent;
+}
+
+.code-editor .button-group button i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.loading {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.output-section {
+  margin-top: 20px;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e8f5e9;
+}
+
+.error {
+  color: red;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
